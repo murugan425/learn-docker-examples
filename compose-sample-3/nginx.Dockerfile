@@ -1,3 +1,3 @@
-FROM nginx:1.13
+FROM nginx:mainline
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
